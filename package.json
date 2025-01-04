@@ -1,5 +1,5 @@
 {
-  "name": "e-commerce-cart-client-typescript",
+  "name": "@mamazlikha/e-commerce-cart-client-typescript",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
