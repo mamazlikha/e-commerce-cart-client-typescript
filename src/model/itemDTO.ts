@@ -13,9 +13,7 @@
 
 export interface ItemDTO { 
     id?: string;
-    price?: number;
-    description: string;
-    name: string;
-    quantity?: number;
+    productEntityId?: string;
+    supplierNumber?: string;
 }
 

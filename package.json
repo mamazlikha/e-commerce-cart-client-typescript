@@ -1,6 +1,6 @@
 {
   "name": "@mamazlikha/e-commerce-cart-client-typescript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

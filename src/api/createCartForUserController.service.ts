@@ -32,7 +32,7 @@ import { Configuration }                                     from '../configurat
 })
 export class CreateCartForUserControllerService {
 
-    protected basePath = 'http://localhost:8082';
+    protected basePath = 'http://localhost:8092';
     public defaultHeaders = new HttpHeaders();
     public configuration = new Configuration();
     public encoder: HttpParameterCodec;
@@ -131,7 +131,7 @@ export class CreateCartForUserControllerService {
             }
         }
 
-        let localVarPath = `/carts/createforuser/`;
+        let localVarPath = `/carts/createforuser`;
         return this.httpClient.request<CartDto>('post', `${this.configuration.basePath}${localVarPath}`,
             {
                 context: localVarHttpContext,

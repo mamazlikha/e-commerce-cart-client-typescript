@@ -30,7 +30,7 @@ import { Configuration }                                     from '../configurat
 })
 export class RemoveItemFromCartControllerService {
 
-    protected basePath = 'http://localhost:8082';
+    protected basePath = 'http://localhost:8092';
     public defaultHeaders = new HttpHeaders();
     public configuration = new Configuration();
     public encoder: HttpParameterCodec;
